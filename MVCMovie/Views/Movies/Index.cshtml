@@ -9,11 +9,11 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 
-    @using (Html.BeginForm("SearchIndex", "Movies", FormMethod.Get))
+    @using (Html.BeginForm("Index", "Movies", FormMethod.Get))
     {
         <p>
         Genre: @Html.DropDownList("movieGenre","All")
-        Title: @Html.TextBox("searchString")<br />
+        Title: @Html.TextBox("SearchString")<br />
         <input type="submit" value="Filter"/>
         </p>
     }
@@ -38,6 +38,8 @@
         <th>
             @Html.DisplayNameFor(model => model.Razzie)
         </th>
+        <th>My Rating</th>
+        <th>Aggregate Rating </th>
 
         <th></th>
     </tr>
@@ -62,6 +64,19 @@
         <td>
             @Html.DisplayFor(modelItem => item.Razzie)
         </td>
+        <td>
+            <form>
+               <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <input type="submit" value="Rate Movie"/>
+            </form>
+        </td>
+        <td>N/A</td>
 
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
