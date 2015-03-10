@@ -58,3 +58,4 @@ C:\Users\User\documents\visual studio 2013\Projects\MVCMovie\MVCMovie\obj\Debug\
 C:\Users\User\documents\visual studio 2013\Projects\MVCMovie\MVCMovie\obj\Debug\MVCMovie.Migrations.Rating.resources
 C:\Users\User\documents\visual studio 2013\Projects\MVCMovie\MVCMovie\obj\Debug\MVCMovie.Migrations.DataAnnotations.resources
 C:\Users\User\documents\visual studio 2013\Projects\MVCMovie\MVCMovie\obj\Debug\MVCMovie.Migrations.Razzie.resources
+C:\Users\User\documents\visual studio 2013\Projects\MVCMovie\MVCMovie\obj\Debug\MVCMovie.Migrations.userRating.resources
